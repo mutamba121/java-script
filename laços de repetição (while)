@@ -1,0 +1,9 @@
+let num = prompt("digite um numero")
+let i = 1
+
+while(i != 11) {
+    let result = num*i;
+    console.log(num+"x"+i+"="+result);
+    i=i+1;
+   
+}
