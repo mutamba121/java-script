@@ -19,22 +19,22 @@ function dividir(a, b) {
 }
 
 // função para elevar ao cubo 
-function cubo(a, b) {
+function calcularCubo(a, b) {
   return (a + b) * (a + b) * (a + b);
 }
 
 // função para elevar ao quadrado 
-function quadrado(a, b) {
+function calcularQuadrado(a, b) {
   return (a + b) * (a + b);
 }
 
 // função para saber a média
-function media(a, b) {
+function calcularMedia(a, b) {
   return (a + b)/2;
 }
 
 // função para saber o maior
-function maior(a, b)  {
+function calcularmaior(a, b)  {
 if (a > b) {
 return (a/2) * b;
 }
@@ -54,8 +54,8 @@ function calcular() {
   document.getElementById("subtracao").innerHTML = "Subtração: " + subtrair(numeroA, numeroB);
   document.getElementById("multiplicacao").innerHTML = "Multiplicação: " + multiplicar(numeroA, numeroB);
   document.getElementById("divisao").innerHTML = "Divisão: " + dividir(numeroA, numeroB);
-  document.getElementById("cubo").innerHTML = "cubo: " + cubo(numeroA, numeroB);
-  document.getElementById("quadrado").innerHTML = "quadrado: " + quadrado(numeroA, numeroB);
-  document.getElementById("media").innerHTML = "media dos valores: " + media (numeroA, numeroB);
-  document.getElementById("maior").innerHTML = "metade do maior vezes o menor: " + maior (numeroA, numeroB);
+  document.getElementById("cubo").innerHTML = "cubo: " + calcularCubo(numeroA, numeroB);
+  document.getElementById("quadrado").innerHTML = "quadrado: " + calcularQuadrado(numeroA, numeroB);
+  document.getElementById("media").innerHTML = "media dos valores: " + calcularMedia (numeroA, numeroB);
+  document.getElementById("maior").innerHTML = "metade do maior vezes o menor: " + calcularmaior (numeroA, numeroB);
 }
