@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vida Ativa</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+    <h1>Calcule seu IMC </h1>
+        <form> <!-- Início do formulário -->
+            <label for="peso">Peso(KG):</label>
+            <!-- Rótulo para o campo de entrada com id "numeroA" -->
+            <input type="text" id="peso" name="peso">
+            <!-- Campo de entrada para o número A -->
+
+            <label for="altura">Altura(M):</label>
+            <!-- Rótulo para o campo de entrada com id "numeroB" -->
+            <input type="text" id="altura" name="altura">
+            <!-- Campo de entrada para o número B -->
+
+            <button type="button" onclick="imc()">Seu IMC</button>
+
+            <h2>Resultado:</h2>
+            <p id="imc"></p>
+            </form>
+            
+            <script src="script.js"></script>
+ 
+</body>
+</html>
