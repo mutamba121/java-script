@@ -7,6 +7,6 @@ function entrar() {
     if (email === "aluno2" && senha === "senai") {
         alert("login bem-sucedido!");
     } else {
-        alert("crendeciais onválidas.tente novamente.");
+        alert("crendeciais inválidas.tente novamente.");
     }
 }
