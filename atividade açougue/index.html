@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Açougue casa de carnes</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+
+    <center>
+
+    <h1> Casa De Carnes </h1>
+    <form>
+
+        <label for="bovina">Carne Bovina(R$): </label>
+        <input type="number" id="bovina" name="bovina"></input>
+
+        <br>
+        <br>
+        <br>
+
+        <label for="suina">Carne Suína(R$): </label>
+        <input type="number" id="suina" name="suina"></input>
+
+        <br>
+        <br>
+        <br>
+
+        <label for="linguiça">Linguiceta(R$): </label>
+        <input type="number" id="linguiça" name="linguiça"></input>
+
+        <br>
+        <br>
+        <br>
+
+        <label for="frango">Carne de Ave(R$): </label>
+        <input type="number" id="frango" name="frango"></input>
+
+        <br>
+        <br>
+        <br>
+        
+
+        <button type="button" onclick="calcular()">TOTAL</button>
+
+        <h2>Valor a pagar: </h2>
+        <p id="total"></p>
+        <p id="desconto"></p>
+
+        </center>
+
+    </form>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
