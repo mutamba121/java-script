@@ -18,10 +18,14 @@
         <form>
 
             <label for="bovina">Carne Bovina(R$): </label>
-            <!--usando o label para "entiquetar" o bagulho-->
+            <!--usando o label para "entiquetar" o bagulho;
+            Já o "for" é quem etiqueta o bagulho-->
 
             <input type="number" id="bovina" name="bovina"></input>
-            <!--usando o input para uma "caixinha interativa" para o usuario preencher, "type" é o tipo de coisa que o usuario vai colocar -->
+            <!--usando o input para uma "caixinha interativa" para o usuario preencher; 
+            "type" é o tipo de caractere que o usuario vai colocar; 
+            "id" é um modo de identificar e marcar a variavel;
+            "name" é a mesma coisa que o "id"-->
 
             <br>
             <br>
@@ -50,10 +54,13 @@
 
 
             <button type="button" onclick="calcular()">TOTAL</button>
+            <!--"Button" é para criar um botão colocado para o usuario ve-lo
+            -->
 
             <h2>Valor a pagar: </h2>
             <p id="total"></p>
             <p id="desconto"></p>
+
 
     </center>
 
