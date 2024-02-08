@@ -30,17 +30,17 @@ function calcularQuadrado(a, b) {
 
 // função para saber a média
 function calcularMedia(a, b) {
-  return (a + b)/2;
+  return (a + b) / 2;
 }
 
 // função para saber o maior
-function calcularmaior(a, b)  {
-if (a > b) {
-return (a/2) * b;
-}
-else {
-return (b/2) * a;
-}
+function calcularmaior(a, b) {
+  if (a > b) {
+    return (a / 2) * b;
+  }
+  else {
+    return (b / 2) * a;
+  }
 }
 
 // Função principal para realizar os cálculos e exibir os resultados na página
@@ -56,6 +56,6 @@ function calcular() {
   document.getElementById("divisao").innerHTML = "Divisão: " + dividir(numeroA, numeroB);
   document.getElementById("cubo").innerHTML = "cubo: " + calcularCubo(numeroA, numeroB);
   document.getElementById("quadrado").innerHTML = "quadrado: " + calcularQuadrado(numeroA, numeroB);
-  document.getElementById("media").innerHTML = "media dos valores: " + calcularMedia (numeroA, numeroB);
-  document.getElementById("maior").innerHTML = "metade do maior vezes o menor: " + calcularmaior (numeroA, numeroB);
+  document.getElementById("media").innerHTML = "media dos valores: " + calcularMedia(numeroA, numeroB);
+  document.getElementById("maior").innerHTML = "metade do maior vezes o menor: " + calcularmaior(numeroA, numeroB);
 }

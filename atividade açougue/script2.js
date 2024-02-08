@@ -1,8 +1,8 @@
 // Função para aplicar desconto de 10% nas quartas-feiras e 5% nas segundas-feiras
 function aplicarDesconto(valorTotal) {
     const diaDaSemana = new Date().getDay(); // 0 para domingo, 1 para segunda-feira, etc.
-    if (diaDaSemana ===3) { //quarta feira
-        return valorTotal *0.9; //desconto de 10%
+    if (diaDaSemana === 3) { //quarta feira
+        return valorTotal * 0.9; //desconto de 10%
     }
     else if (diaDaSemana === 1) { //segunda feira
         return valorTotal * 0.95;//desconto de 5%
@@ -11,7 +11,7 @@ function aplicarDesconto(valorTotal) {
         return valorTotal; //sem desconto
     }
 }
- 
+
 //tabela de preços
 const precoCarneBoi = 25.0;
 const precoCarneFrango = 15.0;
